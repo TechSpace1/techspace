@@ -1,3 +1,11 @@
+:root {
+  --primary-color: rgba(13, 110, 139, 0.75);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --menu-speed: 0.75s;
+}
+
+
+
 html,body {
   margin: 0;
   padding: 0;
@@ -11,6 +19,7 @@ html,body {
 #main {
   overflow: auto;
   padding-bottom: 100px;
+  position: relative;
 }
 .b1 {
   width: 100%;
@@ -42,6 +51,16 @@ html,body {
   padding: 7px 13px;
   font-weight: bold;
 }
+@media (max-width: 600px) {
+  p {
+    font-size: 10px;
+  }
+  .content {
+    visibility: hidden;
+  }
+
+}
+
 .content .btn2 {
   border-radius: 9px;
   color: #00060d;
