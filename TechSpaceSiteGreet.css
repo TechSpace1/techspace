@@ -1,8 +1,9 @@
 :root {
-  --primary-color: rgba(13, 110, 139, 0.75);
+  --primary-color: rgba(38, 50, 56, 0.75);
   --overlay-color: rgba(24, 39, 51, 0.85);
   --menu-speed: 0.75s;
 }
+
 
 
 
@@ -55,10 +56,11 @@ html,body {
   p {
     font-size: 10px;
   }
+}
+@media (max-width: 1100px) {
   .content {
     visibility: hidden;
   }
-
 }
 
 .content .btn2 {
